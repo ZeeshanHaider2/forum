@@ -2,6 +2,8 @@ import React from "react";
 import { comments } from "./commentData";
 import Card from "./Card";
 import Counter from "./Counter";
+import Array from "./Array";
+import GroceryCart from "./GroceryCart";
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         ))}
       </div>
       <Counter />
+      <Array />
+      <GroceryCart />
     </>
   );
 }
