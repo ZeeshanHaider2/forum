@@ -4,6 +4,9 @@ import Card from "./Card";
 import Counter from "./Counter";
 import Array from "./Array";
 import GroceryCart from "./GroceryCart";
+import Form from "./Form";
+import PageTitle from "./Headline";
+import CounterAlert from "./CountAlert";
 
 function App() {
   return (
@@ -16,6 +19,9 @@ function App() {
       <Counter />
       <Array />
       <GroceryCart />
+      <Form />
+      <PageTitle />
+      <CounterAlert />
     </>
   );
 }
